@@ -1,0 +1,15 @@
+{
+  "name": "hamburg-west-lead-sites",
+  "version": "1.0.0",
+  "description": "Static site generator: map hub + individual demo sites for Hamburg-West trade businesses",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^2.7.0"
+  }
+}
